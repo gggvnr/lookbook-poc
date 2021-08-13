@@ -1,4 +1,4 @@
-# lookbook-poc
+# lookbook poc
 
 ## how to start
 you should serve this files with some server to prevent CORS errors \
