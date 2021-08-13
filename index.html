@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>LookBook</title>
+</head>
+<body>
+  <div class="lookbook js-lookbook">
+    <div class="lookbook__sidebar">
+      <ul class="lookbook__items">
+        <li
+          class="lookbook__item js-lookbook-item"
+          data-image="./item1.png"
+        >
+          <img src="./item1.png" alt="" class="lookbook__item-thumb">
+        </li>
+        <li
+          class="lookbook__item js-lookbook-item"
+          data-image="./item2.png"
+        >
+          <img src="./item2.png" alt="" class="lookbook__item-thumb">
+        </li>
+        <li
+          class="lookbook__item js-lookbook-item"
+          data-image="./item3.png"
+        >
+          <img src="./item3.png" alt="" class="lookbook__item-thumb">
+        </li>
+      </ul>
+    </div>
+
+    <div class="lookbook__container js-lookbook-canvas-container">
+      <button type="button" class="js-lookbook-download">Download</button>
+    </div>
+  </div>
+
+  <script src="https://pixijs.download/release/pixi.min.js"></script>
+  <script src="./lookbook.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
